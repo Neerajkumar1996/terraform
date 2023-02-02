@@ -171,7 +171,7 @@ variable "node2_tags" {
   default     = {}
 }
 variable "access_key" {
-  default = ""
+  default = "redis"
 }
 variable "key_path" {
   default = ""
