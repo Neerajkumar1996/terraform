@@ -9,5 +9,5 @@
  resource "local_file" "keypair" {
    content  = tls_private_key.rsa.private_key_pem
    filename = "redis"
-   file_permission = "0400"
+   file_permission = "400"
  }
