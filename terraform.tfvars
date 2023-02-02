@@ -42,6 +42,6 @@ node2_tags = {
   Name  = "db_Node2",
   Owner = "Neeraj",
 }
-access_key = "redis"
+# access_key = "redis"
 
 
